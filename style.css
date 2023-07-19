@@ -1,0 +1,30 @@
+table, th, td {
+  border:1px solid whitesmoke;
+  border-collapse: collapse;
+  /* border-radius: 5px; */
+  
+
+}
+body{
+  min-width: 100vh;
+  display: grid;
+  background: linear-gradient(90deg, #2d99b8 0%, #44366d 100%);
+ 
+}
+th {
+  color: navy blue;
+  font-style: italic;
+  width: 25%;
+}
+th, td {
+  border-style: groove;
+  text-align:left ;
+  padding: 5px;
+  
+}
+th :nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+
+
